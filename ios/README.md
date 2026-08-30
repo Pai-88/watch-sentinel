@@ -44,19 +44,27 @@ scripted.
    on that same Signing & Capabilities tab, because `Sentinel.entitlements`
    declares it. If it isn't, click **+ Capability** and add *HealthKit*.
 
-4. **Plug in your iPhone**, select it as the run destination in the toolbar,
+4. **Enable Developer Mode on the iPhone.** Required on iOS 16 and later, and
+   the build fails with `Developer Mode disabled` without it. On the phone:
+   Settings → Privacy & Security → Developer Mode → on. **The phone reboots**,
+   then asks you to confirm with your passcode after it comes back.
+
+   The row only appears once a Mac has attempted to use the device for
+   development, so plug it in first if you can't find it.
+
+5. **Plug in your iPhone**, select it as the run destination in the toolbar,
    and press ⌘R.
 
-5. **Trust the developer certificate** on the phone the first time:
+6. **Trust the developer certificate** on the phone the first time:
    Settings → General → VPN & Device Management → your Apple ID → Trust.
    (This step only exists for free Apple IDs, and the app expires after 7 days —
    just re-run from Xcode to renew it.)
 
-6. **In the app:** tap *Export last 90 days*, grant every health category when
+7. **In the app:** tap *Export last 90 days*, grant every health category when
    iOS asks, then tap *Share export* and AirDrop `sentinel_export.json` to this
    Mac.
 
-7. **Point the pipeline at it:**
+8. **Point the pipeline at it:**
 
    ```bash
    cp ~/Downloads/sentinel_export.json ~/Documents/watch_sentinel/pipeline/data/
