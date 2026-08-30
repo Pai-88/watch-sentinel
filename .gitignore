@@ -8,9 +8,11 @@ xcuserdata/
 __pycache__/
 *.pyc
 
-# Health data — never commit personal physiological data
+# Health data — never commit personal physiological data.
+# Synthetic data is committed on purpose so the results reproduce; a real
+# export must never be, and neither must any figure derived from one.
 pipeline/data/sentinel_export.json
-pipeline/*.png
+pipeline/*_real.png
 
 # pytest
 .pytest_cache/
