@@ -1,0 +1,1082 @@
+[
+ {
+  "date": "day_000",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.32,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.08
+  }
+ },
+ {
+  "date": "day_001",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.8,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.28
+  }
+ },
+ {
+  "date": "day_002",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.47,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.09
+  }
+ },
+ {
+  "date": "day_003",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 52.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.53,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.01
+  }
+ },
+ {
+  "date": "day_004",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 55.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.38,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.25
+  }
+ },
+ {
+  "date": "day_005",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.96,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.06
+  }
+ },
+ {
+  "date": "day_006",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 54.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.49,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.29
+  }
+ },
+ {
+  "date": "day_007",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 72.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.62,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.21
+  }
+ },
+ {
+  "date": "day_008",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 60.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.22,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.13
+  }
+ },
+ {
+  "date": "day_009",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 70.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.71,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.11
+  }
+ },
+ {
+  "date": "day_010",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 58.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.2,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.02
+  }
+ },
+ {
+  "date": "day_011",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.29,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.26
+  }
+ },
+ {
+  "date": "day_012",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.03,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.06
+  }
+ },
+ {
+  "date": "day_013",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 57.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.52,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.1
+  }
+ },
+ {
+  "date": "day_014",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 74.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.03,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.1
+  }
+ },
+ {
+  "date": "day_015",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 76.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.12,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.34
+  }
+ },
+ {
+  "date": "day_016",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.95,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.03
+  }
+ },
+ {
+  "date": "day_017",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.56,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.12
+  }
+ },
+ {
+  "date": "day_018",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 60.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.52,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.18
+  }
+ },
+ {
+  "date": "day_019",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 57.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.48,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.01
+  }
+ },
+ {
+  "date": "day_020",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 48.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 70.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.52,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.03
+  }
+ },
+ {
+  "date": "day_021",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.82,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.17
+  }
+ },
+ {
+  "date": "day_022",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.72,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.02
+  }
+ },
+ {
+  "date": "day_023",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.59,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.17
+  }
+ },
+ {
+  "date": "day_024",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 59.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.08,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.17
+  }
+ },
+ {
+  "date": "day_025",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 54.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.7,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.16
+  }
+ },
+ {
+  "date": "day_026",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 47.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.23,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.16
+  }
+ },
+ {
+  "date": "day_027",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.94,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.07
+  }
+ },
+ {
+  "date": "day_028",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 73.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.99,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.08
+  }
+ },
+ {
+  "date": "day_029",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.44,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.02
+  }
+ },
+ {
+  "date": "day_030",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.5,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.06
+  }
+ },
+ {
+  "date": "day_031",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.97,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.05
+  }
+ },
+ {
+  "date": "day_032",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 58.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.19,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.19
+  }
+ },
+ {
+  "date": "day_033",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.08,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.22
+  }
+ },
+ {
+  "date": "day_034",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 63.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.31,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.12
+  }
+ },
+ {
+  "date": "day_035",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.81,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.03
+  }
+ },
+ {
+  "date": "day_036",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.65,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.03
+  }
+ },
+ {
+  "date": "day_037",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.45,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.15
+  }
+ },
+ {
+  "date": "day_038",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 71.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.6,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.26
+  }
+ },
+ {
+  "date": "day_039",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 57.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.48,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.12
+  }
+ },
+ {
+  "date": "day_040",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 56.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.53,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.03
+  }
+ },
+ {
+  "date": "day_041",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 67.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.07,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.06
+  }
+ },
+ {
+  "date": "day_042",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 75.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.39,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.06
+  }
+ },
+ {
+  "date": "day_043",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 55.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 55.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.08,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.35
+  }
+ },
+ {
+  "date": "day_044",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 59.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 54.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 16.19,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.4
+  }
+ },
+ {
+  "date": "day_045",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 57.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 43.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 16.4,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.35
+  }
+ },
+ {
+  "date": "day_046",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 60.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 34.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 16.5,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.46
+  }
+ },
+ {
+  "date": "day_047",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 57.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 49.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 16.88,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.65
+  }
+ },
+ {
+  "date": "day_048",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 54.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.49,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.43
+  }
+ },
+ {
+  "date": "day_049",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 57.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.99,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.09
+  }
+ },
+ {
+  "date": "day_050",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.77,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.2
+  }
+ },
+ {
+  "date": "day_051",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.13,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.09
+  }
+ },
+ {
+  "date": "day_052",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 60.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.89,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.2
+  }
+ },
+ {
+  "date": "day_053",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 60.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.87,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.06
+  }
+ },
+ {
+  "date": "day_054",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 56.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.77,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.04
+  }
+ },
+ {
+  "date": "day_055",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 59.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.54,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.17
+  }
+ },
+ {
+  "date": "day_056",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 75.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.59,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.38
+  }
+ },
+ {
+  "date": "day_057",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.4,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.03
+  }
+ },
+ {
+  "date": "day_058",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 55.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 67.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.42,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.24
+  }
+ },
+ {
+  "date": "day_059",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.52,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.1
+  }
+ },
+ {
+  "date": "day_060",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 58.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.1,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.02
+  }
+ },
+ {
+  "date": "day_061",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 59.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.72,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.25
+  }
+ },
+ {
+  "date": "day_062",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.48,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.06
+  }
+ },
+ {
+  "date": "day_063",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.27,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.15
+  }
+ },
+ {
+  "date": "day_064",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.25,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.19
+  }
+ },
+ {
+  "date": "day_065",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.14,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.16
+  }
+ },
+ {
+  "date": "day_066",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 68.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.7,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.05
+  }
+ },
+ {
+  "date": "day_067",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.53,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.16
+  }
+ },
+ {
+  "date": "day_068",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 48.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.36,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.08
+  }
+ },
+ {
+  "date": "day_069",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.06,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.07
+  }
+ },
+ {
+  "date": "day_070",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.47,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.01
+  }
+ },
+ {
+  "date": "day_071",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 73.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.85,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.08
+  }
+ },
+ {
+  "date": "day_072",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 71.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.34,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.12
+  }
+ },
+ {
+  "date": "day_073",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 62.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.41,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.05
+  }
+ },
+ {
+  "date": "day_074",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 63.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.41,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.15
+  }
+ },
+ {
+  "date": "day_075",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.54,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.19
+  }
+ },
+ {
+  "date": "day_076",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 69.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.86,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.01
+  }
+ },
+ {
+  "date": "day_077",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 73.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.41,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.13
+  }
+ },
+ {
+  "date": "day_078",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.9,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 66.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.16,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.23
+  }
+ },
+ {
+  "date": "day_079",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 55.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 73.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.85,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.0
+  }
+ },
+ {
+  "date": "day_080",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 56.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.19,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.1
+  }
+ },
+ {
+  "date": "day_081",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.73,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.15
+  }
+ },
+ {
+  "date": "day_082",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.11,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.13
+  }
+ },
+ {
+  "date": "day_083",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 69.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.37,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.08
+  }
+ },
+ {
+  "date": "day_084",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 77.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.26,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.22
+  }
+ },
+ {
+  "date": "day_085",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 76.2,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.58,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.12
+  }
+ },
+ {
+  "date": "day_086",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 60.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.5,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.06
+  }
+ },
+ {
+  "date": "day_087",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 54.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.1,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.03
+  }
+ },
+ {
+  "date": "day_088",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.68,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.11
+  }
+ },
+ {
+  "date": "day_089",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 57.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.31,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.09
+  }
+ },
+ {
+  "date": "day_090",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.4,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.02
+  }
+ },
+ {
+  "date": "day_091",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 72.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.42,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.09
+  }
+ },
+ {
+  "date": "day_092",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 60.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.08,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.01
+  }
+ },
+ {
+  "date": "day_093",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 57.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 50.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.28,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.03
+  }
+ },
+ {
+  "date": "day_094",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 57.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 53.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.21,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.35
+  }
+ },
+ {
+  "date": "day_095",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 59.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 45.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.82,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.54
+  }
+ },
+ {
+  "date": "day_096",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 57.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 42.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 17.01,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.74
+  }
+ },
+ {
+  "date": "day_097",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 58.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 49.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.9,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.39
+  }
+ },
+ {
+  "date": "day_098",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 53.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 16.15,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.36
+  }
+ },
+ {
+  "date": "day_099",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 55.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.76,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.06
+  }
+ },
+ {
+  "date": "day_100",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.6,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.1
+  }
+ },
+ {
+  "date": "day_101",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.6,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 58.0,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.72,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.16
+  }
+ },
+ {
+  "date": "day_102",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 52.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.28,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.27
+  }
+ },
+ {
+  "date": "day_103",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 64.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.42,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.01
+  }
+ },
+ {
+  "date": "day_104",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.26,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.17
+  }
+ },
+ {
+  "date": "day_105",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.3,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 70.4,
+   "HKQuantityTypeIdentifierRespiratoryRate": 13.96,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.23
+  }
+ },
+ {
+  "date": "day_106",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 63.8,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.52,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.16
+  }
+ },
+ {
+  "date": "day_107",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 54.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 63.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 15.09,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.11
+  }
+ },
+ {
+  "date": "day_108",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 57.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.88,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.17
+  }
+ },
+ {
+  "date": "day_109",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 56.6,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.12,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.06
+  }
+ },
+ {
+  "date": "day_110",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 63.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.16,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.12
+  }
+ },
+ {
+  "date": "day_111",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.3,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.11
+  }
+ },
+ {
+  "date": "day_112",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 50.8,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 70.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.62,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.09
+  }
+ },
+ {
+  "date": "day_113",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.1,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 70.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.42,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.11
+  }
+ },
+ {
+  "date": "day_114",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 53.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 76.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.59,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.06
+  }
+ },
+ {
+  "date": "day_115",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.4,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 55.9,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.62,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.15
+  }
+ },
+ {
+  "date": "day_116",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 51.7,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.5,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.38,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.18
+  }
+ },
+ {
+  "date": "day_117",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 49.5,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.7,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.48,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.28
+  }
+ },
+ {
+  "date": "day_118",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.0,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 65.3,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.58,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": 0.28
+  }
+ },
+ {
+  "date": "day_119",
+  "metrics": {
+   "HKQuantityTypeIdentifierRestingHeartRate": 52.2,
+   "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": 61.1,
+   "HKQuantityTypeIdentifierRespiratoryRate": 14.47,
+   "HKQuantityTypeIdentifierAppleSleepingWristTemperature": -0.05
+  }
+ }
+]

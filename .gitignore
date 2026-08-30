@@ -1,0 +1,16 @@
+# Xcode
+ios/build/
+ios/DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Python
+__pycache__/
+*.pyc
+
+# Health data — never commit personal physiological data
+pipeline/data/sentinel_export.json
+pipeline/*.png
+
+# pytest
+.pytest_cache/
