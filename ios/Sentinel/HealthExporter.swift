@@ -58,6 +58,28 @@ final class HealthExporter {
         fmt.dateFormat = "yyyy-MM-dd"
 
         var lines: [String] = ["Window: \(fmt.string(from: start)) → \(fmt.string(from: end))"]
+
+        // Whether the permission sheet has ever been answered for these types.
+        // `authorizationStatus(for:)` reports SHARE permission and would say
+        // "notDetermined" for all four here — we never ask to share — so it
+        // cannot distinguish "you denied us" from "you were never asked".
+        // This request-level API can.
+        let read = Set(types.compactMap { HKQuantityType.quantityType(forIdentifier: $0) })
+        do {
+            switch try await store.statusForAuthorizationRequest(toShare: [], read: read) {
+            case .shouldRequest:
+                lines.append("Permission sheet: NOT yet answered")
+            case .unnecessary:
+                lines.append("Permission sheet: already answered")
+            case .unknown:
+                lines.append("Permission sheet: status unknown")
+            @unknown default:
+                lines.append("Permission sheet: ?")
+            }
+        } catch {
+            lines.append("Permission status error: \(error.localizedDescription)")
+        }
+
         var total = 0
 
         for id in types {
@@ -65,17 +87,6 @@ final class HealthExporter {
                 lines.append("• \(Self.label(id)): type unavailable on this OS")
                 continue
             }
-            // Write-permission status. This says nothing about read access —
-            // included only because "notDetermined" proves the prompt was
-            // never answered at all.
-            let auth: String
-            switch store.authorizationStatus(for: qt) {
-            case .notDetermined: auth = "not asked"
-            case .sharingDenied: auth = "write denied"
-            case .sharingAuthorized: auth = "write ok"
-            @unknown default: auth = "?"
-            }
-
             do {
                 let samples = try await self.samples(for: qt, from: start, to: end)
                 total += samples.count
@@ -83,7 +94,7 @@ final class HealthExporter {
                     lines.append("• \(Self.label(id)): \(samples.count) samples, "
                                  + "\(fmt.string(from: first.startDate)) → \(fmt.string(from: last.startDate))")
                 } else {
-                    lines.append("• \(Self.label(id)): 0 samples [\(auth)]")
+                    lines.append("• \(Self.label(id)): 0 samples")
                 }
             } catch {
                 lines.append("• \(Self.label(id)): error — \(error.localizedDescription)")
@@ -133,8 +144,12 @@ final class HealthExporter {
     /// Fetch daily averages for the last `days` days for every metric.
     func fetchDailyRecords(days: Int = 90) async throws -> [DailyRecord] {
         let cal = Calendar.current
-        let end = cal.startOfDay(for: Date())
-        let start = cal.date(byAdding: .day, value: -days, to: end)!
+        // End at *now*, not at midnight: resting HR, HRV and wrist temperature
+        // are all written overnight, so today's values already exist by morning.
+        // Ending at start-of-day would silently drop them and make every alert
+        // a day stale — the opposite of what an early-warning system wants.
+        let end = Date()
+        let start = cal.date(byAdding: .day, value: -days, to: cal.startOfDay(for: end))!
         var records: [String: DailyRecord] = [:]
         let fmt = DateFormatter()
         fmt.dateFormat = "yyyy-MM-dd"
