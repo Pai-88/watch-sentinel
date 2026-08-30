@@ -52,12 +52,21 @@ def risk_score(z: pd.DataFrame) -> pd.Series:
     """Combine per-metric directional z-scores into one daily risk score.
 
     Multi-signal agreement is what separates illness from a bad night's sleep,
-    so a lone elevated metric scores zero: at least MIN_AGREE metrics must be
-    above ELEVATED_Z before the day is scored at all.
+    so a lone elevated metric scores zero: several metrics must be above
+    ELEVATED_Z before the day is scored at all.
+
+    The gate scales to how many metrics the export actually contains. Wrist
+    temperature and respiratory rate are only recorded during sleep tracking,
+    so a watch that is not worn to bed — or one older than Series 8 — yields
+    two metrics, not four. Demanding a fixed 3-of-4 there is unsatisfiable and
+    would silently return no alerts forever, which looks identical to "you were
+    never ill".
     """
+    n = z.shape[1]
+    gate = max(2, min(MIN_AGREE, n - 1))      # 4 metrics->3, 3->2, 2->both
     pos = z.clip(lower=0)                     # only "getting ill" deviations count
     elevated = z > ELEVATED_Z                 # which metrics look off today
-    agree = elevated.sum(axis=1) >= MIN_AGREE # multi-signal agreement gate
+    agree = elevated.sum(axis=1) >= gate      # multi-signal agreement gate
     score = pos.where(elevated).mean(axis=1)  # mean of the elevated metrics only
     score = score.where(agree, 0.0)           # gate: lone outliers score zero
     return score.where(z.notna().any(axis=1)) # keep NaN before history exists

@@ -113,6 +113,20 @@ def test_three_agreeing_metrics_score_their_mean():
     assert score == pytest.approx(2.0)
 
 
+def test_gate_scales_to_a_three_metric_export():
+    """A watch not worn to bed yields no wrist temperature. The gate must
+    adapt, or 3-of-4 becomes unsatisfiable and the detector goes silent."""
+    three = pd.DataFrame([{RHR: 2.0, HRV: 2.0, RESP: 0.0}])
+    assert risk_score(three).iloc[0] == pytest.approx(2.0)
+
+
+def test_two_metric_export_requires_both():
+    two_agree = pd.DataFrame([{RHR: 2.0, HRV: 2.0}])
+    one_only = pd.DataFrame([{RHR: 5.0, HRV: 0.0}])
+    assert risk_score(two_agree).iloc[0] == pytest.approx(2.0)
+    assert risk_score(one_only).iloc[0] == 0.0
+
+
 def test_negative_z_never_raises_the_score():
     """Metrics moving the healthy way must not be averaged in as positives."""
     gated = risk_score(z_row([2.0, 2.0, 2.0, -50.0])).iloc[0]
