@@ -20,9 +20,109 @@ final class HealthExporter {
         .appleSleepingWristTemperature,
     ]
 
+    enum ExportError: LocalizedError {
+        case healthDataUnavailable
+
+        var errorDescription: String? {
+            switch self {
+            case .healthDataUnavailable:
+                return "HealthKit is not available on this device."
+            }
+        }
+    }
+
     func requestAuthorization() async throws {
+        guard HKHealthStore.isHealthDataAvailable() else {
+            throw ExportError.healthDataUnavailable
+        }
         let read = Set(types.compactMap { HKQuantityType.quantityType(forIdentifier: $0) })
         try await store.requestAuthorization(toShare: [], read: read)
+    }
+
+    /// Per-metric raw sample counts and date ranges.
+    ///
+    /// HealthKit deliberately refuses to say whether READ access was granted:
+    /// a denied type returns an empty result set, exactly like a type you have
+    /// permission for but no data in. So an empty export is ambiguous on its
+    /// own, and this is the only way to tell the two apart — if every metric
+    /// reads zero the cause is almost certainly permissions, whereas a mix of
+    /// zero and non-zero means the data really is missing.
+    func diagnose(days: Int = 90) async -> String {
+        guard HKHealthStore.isHealthDataAvailable() else {
+            return "HealthKit unavailable on this device."
+        }
+        let cal = Calendar.current
+        let end = Date()
+        let start = cal.date(byAdding: .day, value: -days, to: cal.startOfDay(for: end))!
+        let fmt = DateFormatter()
+        fmt.dateFormat = "yyyy-MM-dd"
+
+        var lines: [String] = ["Window: \(fmt.string(from: start)) → \(fmt.string(from: end))"]
+        var total = 0
+
+        for id in types {
+            guard let qt = HKQuantityType.quantityType(forIdentifier: id) else {
+                lines.append("• \(Self.label(id)): type unavailable on this OS")
+                continue
+            }
+            // Write-permission status. This says nothing about read access —
+            // included only because "notDetermined" proves the prompt was
+            // never answered at all.
+            let auth: String
+            switch store.authorizationStatus(for: qt) {
+            case .notDetermined: auth = "not asked"
+            case .sharingDenied: auth = "write denied"
+            case .sharingAuthorized: auth = "write ok"
+            @unknown default: auth = "?"
+            }
+
+            do {
+                let samples = try await self.samples(for: qt, from: start, to: end)
+                total += samples.count
+                if let first = samples.first, let last = samples.last {
+                    lines.append("• \(Self.label(id)): \(samples.count) samples, "
+                                 + "\(fmt.string(from: first.startDate)) → \(fmt.string(from: last.startDate))")
+                } else {
+                    lines.append("• \(Self.label(id)): 0 samples [\(auth)]")
+                }
+            } catch {
+                lines.append("• \(Self.label(id)): error — \(error.localizedDescription)")
+            }
+        }
+
+        if total == 0 {
+            lines.append("")
+            lines.append("Every metric is empty. Read access was probably denied.")
+            lines.append("Fix in: Settings → Privacy & Security → Health → Sentinel,")
+            lines.append("and switch all four categories on.")
+        }
+        return lines.joined(separator: "\n")
+    }
+
+    private func samples(for type: HKQuantityType, from start: Date,
+                         to end: Date) async throws -> [HKSample] {
+        try await withCheckedThrowingContinuation { cont in
+            let q = HKSampleQuery(
+                sampleType: type,
+                predicate: HKQuery.predicateForSamples(withStart: start, end: end),
+                limit: HKObjectQueryNoLimit,
+                sortDescriptors: [NSSortDescriptor(key: HKSampleSortIdentifierStartDate,
+                                                   ascending: true)]) { _, samples, error in
+                if let error { cont.resume(throwing: error) }
+                else { cont.resume(returning: samples ?? []) }
+            }
+            store.execute(q)
+        }
+    }
+
+    private static func label(_ id: HKQuantityTypeIdentifier) -> String {
+        switch id {
+        case .restingHeartRate: return "Resting HR"
+        case .heartRateVariabilitySDNN: return "HRV SDNN"
+        case .respiratoryRate: return "Respiratory rate"
+        case .appleSleepingWristTemperature: return "Wrist temp"
+        default: return id.rawValue
+        }
     }
 
     struct DailyRecord: Codable {
