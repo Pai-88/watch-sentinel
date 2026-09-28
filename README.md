@@ -17,7 +17,7 @@ baseline, scores each day, and evaluates detections against known illness dates.
 
 ## Status
 
-The detector is **validated on synthetic data only** — see [Honest limitations](#honest-limitations).
+The detector is **validated on synthetic data only**. See [Limitations](#limitations).
 
 | | |
 |---|---|
@@ -44,7 +44,7 @@ means nothing in isolation. Each metric is compared against *your* trailing
 
 **2. The baseline never sees the future.** The rolling window is shifted by one
 day, so day *t* is scored only against days that had already happened. This is
-the whole reason the reported lead times mean anything — a centred window would
+the whole reason the reported lead times mean anything: a centred window would
 let tomorrow's data inform today's alert and inflate every result. Two tests
 pin this down, and they fail if the shift is removed.
 
@@ -54,7 +54,7 @@ gradually learns your illnesses as normal and goes quiet. Robust statistics
 prevent that; `test_baseline_survives_a_previous_illness` guards it.
 
 **4. Three of four metrics must agree.** Any single signal moves for dull
-reasons — a warm room, a late night, alcohol, a hard session. What is hard to
+reasons: a warm room, a late night, alcohol, a hard session. What is hard to
 fake is four signals drifting the same way at once. A lone elevated metric
 scores exactly zero.
 
@@ -91,10 +91,10 @@ Requires `numpy`, `pandas`, `matplotlib`, `pytest`.
 
 Build the iOS app (see [ios/README.md](ios/README.md)), export from your iPhone,
 drop the JSON in `pipeline/data/`, and point `load()` at it. Then **re-run
-`tune.py`** — the shipped constants were fitted to two synthetic events and
+`tune.py`**. The shipped constants were fitted to two synthetic events and
 should not be trusted on real data.
 
-## Honest limitations
+## Limitations
 
 - **Never tested on a human.** Every number here comes from simulated data.
 - **Tuned on two events**, which is far too few for the thresholds to mean much.
